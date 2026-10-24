@@ -10,8 +10,10 @@ cable USB. Es software privado que su autor comparte para uso personal, «tal cu
 
 - Las versiones de la app se publican en [Releases](https://github.com/duarteenc/nanobtw-farmer-releases/releases):
   `NanobtwFarmer-X.Y.Z-setup.exe`, su `.sha256` y la guía de esa versión.
-- Todavía no hay ninguna versión de la app publicada. La release `clave-nbf-2026-1` solo contiene la clave pública
-  de las actualizaciones.
+- Versión actual: [0.2.1](https://github.com/duarteenc/nanobtw-farmer-releases/releases/tag/v0.2.1). La release
+  `clave-nbf-2026-1` solo contiene la clave pública de las actualizaciones.
+- Si ya tienes la 0.1.x o la 0.2.0 del piloto, instala la 0.2.1 a mano una vez: cierra la app y ejecuta el
+  instalador; tus datos se conservan. Desde la 0.2.1, las versiones nuevas se ofrecen desde la propia app.
 - Requisitos: Windows 10 u 11 de 64 bits. Se instala para tu usuario, sin permisos de administrador.
 
 ## Antes de instalar: comprueba el archivo
@@ -67,8 +69,9 @@ Sus textos de licencia se instalan en la carpeta `licenses` de la aplicación.
 This repository only distributes the **Nanobtw Farmer** Windows installers and the signed notice the app reads
 to look for updates. The source code is not published here.
 
-- Releases: `NanobtwFarmer-X.Y.Z-setup.exe`, its `.sha256` and that version's guide. No app version has been
-  published yet; the `clave-nbf-2026-1` release only holds the updates' public key.
+- Releases: `NanobtwFarmer-X.Y.Z-setup.exe`, its `.sha256` and that version's guide. Current version: 0.2.1
+  (from 0.1.x or the 0.2.0 pilot, install it by hand once; later versions are offered by the app). The
+  `clave-nbf-2026-1` release only holds the updates' public key.
 - Before installing, compare `Get-FileHash .\NanobtwFarmer-X.Y.Z-setup.exe -Algorithm SHA256` with the SHA-256
   on the release page. The installer is **not** code-signed: Windows (SmartScreen or Smart App Control), the
   browser or an antivirus may warn or block it. If any warning appears, stop and do not disable any protection.
